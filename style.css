@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://www.omnifood.net/resources/CSS/img/hero-min.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.guide{
+    margin-top: 55px;
+}
+.guide a{
+    color: #fff;
+    padding: 10px;
+}
+.nav li{
+    display: inline;
+    margin-left: 40px;
+    padding: 20px ;
+}
+.nav li :hover{
+    border: 1px solid #e67e27;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+.nav img{
+    width: auto;
+    height: 100px;
+    margin-top: 20px;
+}
+.header1{
+    color: #fff;
+    margin-top: 20vh;
+    padding: 0 7%;
+}
+.header1 a{
+    font-size: larger;
+    border: 1px solid #e67e27;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #e67e27;
+}
+.cm:hover{
+    background-color: #e67e2a;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.showmore{
+    width: 100%;
+    height: 100vh;
+}
+.ngang::before{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 40px;
+}
+.ngang{
+    text-align:center;
+}
+.ke{
+    border: 2px solid tomato;
+    width: 100px;
+    margin: 0 auto;
+}
+.cot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.sang{
+    margin-left: 50px;
+}
+i{
+    font-size: 250%;
+    color: #e67e2a;
+}
+.sang h3{
+    font-size: 200%;
+}
+.sang p{
+    font-size: 120%;
+}
+.photos{
+    width: 100%;
+    height: 80vh;
+}
+.anh li{
+    width: 25%;
+    float: left;
+}
+.anh img{
+    width: 100%;
+    transform: scale(1);
+    filter: brightness(55%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.anh img:hover{
+    filter: brightness(100%);
+    transition: 0.6s;
+}
+.how{
+    height: 100vh;
+    width: 100%;
+    background-color: #ece6e6;
+}
+.how-a{
+    text-align: center;
+}
+.howcot1 img{
+    width: 30vh;
+}
+.how-b{
+    display: flex;
+}
+.howcot1{
+    position: absolute;
+    right:60%
+}
+.howcot2{
+    right: 10%;
+    position: absolute;
+}
+.cot2nho{
+    display: flex;
+    padding-bottom: 10%;
+}
+.so{
+    width: 8%;
+    padding: 10px;
+    border: 2px solid #e67e2a;
+    border-radius: 50%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+
